@@ -1,0 +1,127 @@
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div.container{
+  border: 5px transparent;
+  width: 65%;
+  margin: 0 auto 0 auto;
+}
+header{
+  background-color: #f1f9fa;
+  text-align: center;
+}
+h1{
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 15px;
+  font-size: 60px;
+  font-weight: 900;
+  color: #0DA2C7;
+}
+h2{
+  font-family: "Dosis", sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  letter-spacing: 15px;
+  color: #015289;
+}
+.hero img{
+  width: 100%;
+}
+nav{
+  background-color: #015289;
+}
+ul{
+  text-align: center;
+}
+li{
+  display: inline-block;
+  width: 140px;
+  border: 4px transparent;
+  margin: 0px 4px;
+  line-height: 2.4em;
+  font-family: "Dosis", sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  font-size: large;
+}
+a{
+  color: #f1f9fa;
+  text-decoration: none;
+  display: block;
+}
+a:hover {
+  color: #ff99a7;
+}
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: #015289;
+  padding: 10px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 900;
+  color: #015289;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+img > .column{
+  width:  500px;
+  height: 500px;
+}
+
+footer{
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  height: 2.4em; 
+  width: 2.4em;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #015289;
+  color: #f1f9fa;
+  text-align: center;
+}
+.fa-twitter {
+  background: #015289;
+  color: #f1f9fa;
+} 
+.fa-instagram {
+  background: #015289;
+  color: #f1f9fa;
+}
+.fa-tumblr {
+  background: #015289;
+  color: #f1f9fa;
+}
